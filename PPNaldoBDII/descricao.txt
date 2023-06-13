@@ -1,0 +1,49 @@
+Problema: Plataforma de E-commerce
+Desenvolvimento de uma plataforma de e-commerce que lida com quatro tipos de documentos integrados: Produtos, Usuários, Pedidos e Avaliações. Cada tipo de documento possui informações específicas e está relacionado aos outros tipos.
+
+Os documentos terão a seguinte estrutura:
+
+1. Produtos:
+   - Nome do produto
+   - Descrição do produto
+   - Preço do produto
+   - Estoque disponível
+
+2. Usuários:
+   - Nome do usuário
+   - Endereço de e-mail do usuário
+   - Senha do usuário
+   - Informações de entrega do usuário
+
+3. Pedidos:
+   - ID do pedido
+   - Lista de produtos no pedido
+   - Total do pedido
+   - Informações de entrega do pedido
+   - Status do pedido (pendente, em andamento, concluído)
+
+4. Avaliações:
+   - ID da avaliação
+   - Produto avaliado
+   - Classificação (de 1 a 5 estrelas)
+   - Comentários
+
+Desenvolver uma API em Node.js com acesso ao banco de dados MongoDB para realizar operações CRUD básicas (inserção, remoção, alteração e consulta) em relação a esses documentos. A API será capaz de atender:
+
+1. Inserção: Permitir a adição de novos produtos, usuários, pedidos e avaliações ao banco de dados.
+
+2. Remoção: Possibilitar a exclusão de produtos, usuários, pedidos e avaliações existentes no banco de dados.
+
+3. Alteração: Permitir a atualização das informações de produtos, usuários, pedidos e avaliações já registrados.
+
+4. Consulta: Realizar consultas com operadores lógicos e/ou relacionais para recuperar informações específicas do banco de dados. Cada membro da equipe deve fornecer pelo menos uma consulta baseada em suas necessidades e atribuições individuais.
+
+Exemplo de consultas:
+
+- Consulta 1 (Membro 1 - Produtos): Recuperar todos os produtos com estoque disponível acima de um determinado valor.
+
+- Consulta 2 (Membro 2 - Usuários): Recuperar todos os usuários que fizeram pedidos nos últimos 30 dias.
+
+- Consulta 3 (Membro 3 - Pedidos): Recuperar todos os pedidos concluídos com um valor total acima de um determinado limite.
+
+- Consulta 4 (Membro 4 - Avaliações): Recuperar todas as avaliações de um determinado produto com uma classificação igual ou acima de um valor específico.
